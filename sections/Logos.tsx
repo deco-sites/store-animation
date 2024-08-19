@@ -46,6 +46,12 @@ export default function Logos({
           </div>
         </div>
       </div>
+      <div class="box sample-transition" 
+         hx-trigger="revealed" 
+         hx-swap="outerHTML" 
+         hx-get="/contact/form">
+          Trocando de conteudo
+    </div>
     </div>
   );
 }
